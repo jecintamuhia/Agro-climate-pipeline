@@ -8,7 +8,7 @@ on:
 
 jobs:
   build-and-check:
-    runs-on: windows-latest          # ← This makes it run on Windows Server 2025
+    runs-on: ubuntu-latest        # ← This makes it run on Windows Server 2025
 
     steps:
       - name: Checkout code
